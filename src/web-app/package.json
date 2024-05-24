@@ -1,0 +1,24 @@
+{
+  "name": "web-app",
+  "version": "1.0.0",
+  "description": "Test app to see npm package update via dependabot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saw2881/github-actions.git"
+  },
+  "author": "Subir Saw",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/saw2881/github-actions/issues"
+  },
+  "homepage": "https://github.com/saw2881/github-actions#readme",
+  "dependencies": {
+    "@angular/cli": "v15-lts",
+    "@c8y/style": "y2024-lts",
+    "lodash-es": "^4.17.20"
+  }
+}
