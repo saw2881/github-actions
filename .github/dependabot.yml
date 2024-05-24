@@ -1,0 +1,24 @@
+
+version: 2
+updates:
+
+  # For NPM we pin everything using package-lock with new versions when possible
+  - package-ecosystem: "npm"
+    directory: "/src/web-app"
+    schedule:
+      interval: "weekly"
+      day: "sunday"
+      time: "08:00"
+      timezone: "Etc/UTC"
+    versioning-strategy: lockfile-only
+    groups:
+      angular:
+        applies-to: version-updates
+        patterns:
+        - "@angular*"
+      c8y:
+        applies-to: version-updates
+        patterns:
+        - "@c8y*"
+    labels:
+        - "dependencies"
