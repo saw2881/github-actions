@@ -17,8 +17,8 @@
   },
   "homepage": "https://github.com/saw2881/github-actions#readme",
   "dependencies": {
-    "@angular/cli": "v15-lts",
-    "@c8y/style": "y2024-lts",
+    "@angular/cli": "v16-lts",
+    "@c8y/style": "y2025-lts",
     "lodash-es": "^4.17.20"
   }
 }
