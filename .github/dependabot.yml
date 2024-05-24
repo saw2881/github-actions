@@ -11,6 +11,8 @@ updates:
       time: "08:00"
       timezone: "Etc/UTC"
     versioning-strategy: lockfile-only
+    labels:
+    - "dependencies"
     groups:
       angular:
         applies-to: version-updates
@@ -20,5 +22,3 @@ updates:
         applies-to: version-updates
         patterns:
         - "@c8y*"
-    labels:
-        - "dependencies"
